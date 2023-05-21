@@ -4,14 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahimehsd/nodeJs-authentication.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahimehsd/nodeJs-authentication/issues"
+  },
+  "homepage": "https://github.com/fahimehsd/nodeJs-authentication#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }
